@@ -1,0 +1,24 @@
+This is a object detection framework for GastricImages Categorization
+
+requirement:
+    python3.6
+    conda
+    tensorflow1.4
+    cython
+    opencv-python
+    easydict
+    Pillow
+    matplotlibscipy
+
+src
+--train.py used to train model
+--valid.py used to valid model with enw data
+
+--lib
+----libs for networds
+
+--preprocess
+----generate.py: generate train and text lists in files
+----rename.py: rename pictures to  format 0000001.jpg
+----select_and_filter_images.py: filter pictures by some specific request
+
